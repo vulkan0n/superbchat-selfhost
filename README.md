@@ -9,7 +9,7 @@ To see a working instance of shadowchat, see [superbchat-vulkan0n.fly.dev](https
 # Installation
 
 1. ```apt install golang```
-2. ```git clone https://github.com/vulkan0n/superbchat```
+2. ```git clone https://github.com/vulkan0n/superbchat.git```
 3. ```cd superbchat```
 4. ```go install github.com/skip2/go-qrcode@latest```
 5. edit ```config.json```
