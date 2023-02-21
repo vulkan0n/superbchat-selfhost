@@ -9,8 +9,8 @@ To see a working instance of shadowchat, see [superbchat-vulkan0n.fly.dev](https
 # Installation
 
 1. ```apt install golang```
-2. ```git clone https://git.sr.ht/~anon_/shadowchat```
-3. ```cd shadowchat```
+2. ```git clone https://github.com/vulkan0n/superbchat```
+3. ```cd superbchat```
 4. ```go install github.com/skip2/go-qrcode@latest```
 5. edit ```config.json```
 6. ```go run main.go```
@@ -31,8 +31,9 @@ A webserver at 127.0.0.1:8900 is running.
 # Fly.io
 You can try to deploy it fly.io for free. You will need to download their [CLI app](https://fly.io/docs/hands-on/install-flyctl/) `flyctl`.
 But you will need to create a volume for the app with :
-1. ```fly volumes create example_data --size 1```
-Just 1GB should be more than enough.
+- ```fly volumes create example_data --size 1```
+- Just 1GB should be more than enough.
+- Then add the corresponding [mounts section](https://fly.io/docs/reference/volumes/#using-volumes) to the ```fly.toml``` file
 
 # License
 
@@ -46,4 +47,4 @@ work.
 ### Donate
 
 sir,thank you
-`qpwcmmp5636akgpz8m07zhefgykczegekv5hvwsd24`
+`bitcoincash:qpwcmmp5636akgpz8m07zhefgykczegekv5hvwsd24`
