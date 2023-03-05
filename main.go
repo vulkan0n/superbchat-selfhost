@@ -22,28 +22,28 @@ import (
 	"github.com/skip2/go-qrcode"
 )
 
-var BCHAddress string = ""
-var ScamThreshold float64 = 0.0001 // MINIMUM DONATION AMOUNT
-var MessageMaxChar int = 250
-var NameMaxChar int = 25
-var username string = "admin"                // chat log /view page
-var AlertWidgetRefreshInterval string = "10" //seconds
+var BCHAddress = ""
+var ScamThreshold = 0.0001 // MINIMUM DONATION AMOUNT
+var MessageMaxChar = 250
+var NameMaxChar = 25
+var username = "admin"                // chat log /view page
+var AlertWidgetRefreshInterval = "10" //seconds
 // fullstack.cash
-var apiURL string = "https://api.fullstack.cash/v5/electrumx"
-var transactionsMethod string = "/transactions/"
-var transactionDetailsMethod string = "/tx/data/"
+var apiURL = "https://api.fullstack.cash/v5/electrumx"
+var transactionsMethod = "/transactions/"
+var transactionDetailsMethod = "/tx/data/"
 
 // this is the password for both the /view page and the OBS /alert page
 // example OBS url: https://example.com/alert?auth=adminadmin
-var password string = "adminadmin"
-var checked string = ""
+var password = "adminadmin"
+var checked = ""
 
 // Email settings
-var enableEmail bool = false
-var smtpHost string = "smtp.purelymail.com"
-var smtpPort string = "587"
-var smtpUser string = "example@purelymail.com"
-var smtpPass string = "[y7EQ(xgTW_~{CUpPhO6(#"
+var enableEmail = false
+var smtpHost = "smtp.purelymail.com"
+var smtpPort = "587"
+var smtpUser = "example@purelymail.com"
+var smtpPass = "[y7EQ(xgTW_~{CUpPhO6(#"
 var sendTo = []string{"example@purelymail.com"} // Comma separated recipient list
 
 var indexTemplate *template.Template

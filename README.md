@@ -4,7 +4,7 @@
 - Provides an admin view page to see donations with corresponding comments.
 - Provides notification methods usable in OBS with an HTML page.
 
-To see a working instance of shadowchat, see [superbchat-vulkan0n.fly.dev](https://superbchat-vulkan0n.fly.dev/).
+To see a working instance of superbchat, see [superbchat-vulkan0n.fly.dev](https://superbchat-vulkan0n.fly.dev/).
 
 # Installation
 

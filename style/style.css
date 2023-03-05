@@ -110,12 +110,9 @@ blockquote {
     color: white;
     outline: none;
     font-size: 16px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 7px;
     min-height: 24px;
-    padding-bottom: 7px;
     margin: 6px;
+    padding: 7px 14px;
     width: 100%;
     word-break: break-all;
     word-wrap: break-word;
