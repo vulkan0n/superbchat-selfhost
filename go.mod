@@ -1,4 +1,4 @@
-module superbchat
+module superbchat-selfhost
 
 go 1.19
 
